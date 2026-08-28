@@ -12,6 +12,17 @@ description: 'Click Therapeutics, Inc. is a New York-headquartered digital medic
   disorder, multiple sclerosis, atopic dermatitis, obesity, oncology, insomnia and acute
   coronary syndrome. Click publishes no public developer program, API, or SDK — its software
   is distributed as regulated prescription therapeutics, not as a platform.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://clicktherapeutics.imgix.net/images/seo-share-image.png
 url: https://raw.githubusercontent.com/api-evangelist/click-therapeutics/refs/heads/main/apis.yml
 x-type: company
