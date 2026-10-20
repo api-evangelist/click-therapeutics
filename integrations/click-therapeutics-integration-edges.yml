@@ -1,0 +1,51 @@
+edges:
+- partner_name: FDA digital therapeutics (510(k) / De Novo)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254038
+  category: FDA-authorized digital therapeutic
+  contract_reference:
+    register: openFDA device/510k (DTx product codes PWE QFT QMY QMZ QQU QRA QVO QWI QXC SAP SBN SCP SEE)
+    standard: FDA 510(k) / De Novo digital therapeutic
+    spec_file: null
+    role: fda-dtx-holder
+    registered_name: Click Therapeutics, Inc.
+    matched_domain: clicktherapeutics.com
+    matched_by: domain
+    domain_source: wikidata P856
+    detected_by: sweep-digital-therapeutics.py
+    detected: '2026-10-20'
+    identity: wikidata Q140045893 'Click Therapeutics, Inc. (United States)' P856 https://www.clicktherapeutics.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    register_id: K254038
+    certified_products:
+    - product: FDA digital therapeutic (SAP)
+      product_code: SAP
+      lapsed: false
+      latest_decision: '2026-07-30'
+      devices:
+      - Motivista (CT-155)
+    - product: FDA digital therapeutic (SEE)
+      product_code: SEE
+      lapsed: false
+      latest_decision: '2025-04-11'
+      devices:
+      - CT-132
+    signal_note: certified_products = one entry per FDA product code held, never per device; openFDA carries decisions,
+      not withdrawals, so lapsed is always false
+  detected_by: sweep-digital-therapeutics.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://diga.bfarm.de/de/verzeichnis
+- https://mhealthbelgium.be/apps
+- https://api.fda.gov/device/510k.json?search=product_code:PWE+product_code:QFT+product_code:QMY+product_code:QMZ+product_code:QQU+product_code:QRA+product_code:QVO+product_code:QWI+product_code:QXC+product_code:SAP+product_code:SBN+product_code:SCP+product_code:SEE&limit=100
+checked:
+- https://api.fda.gov/device/510k.json?search=product_code:PWE+product_code:QFT+product_code:QMY+product_code:QMZ+product_code:QQU+product_code:QRA+product_code:QVO+product_code:QWI+product_code:QXC+product_code:SAP+product_code:SBN+product_code:SCP+product_code:SEE&limit=100
+- https://diga.bfarm.de/de/verzeichnis
+- https://mhealthbelgium.be/apps
