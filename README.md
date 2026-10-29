@@ -64,25 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Click Therapeutics, Inc. develops, validates and commercializes software as prescription medical
-treatments — the Digital Therapeutics category it named. Founded in 2012 in New York by David
-Benshoof Klein, its AI-enabled platform targets diseases with an underlying neurological or
-behavioral component, delivered as smartphone software used independently or alongside
-pharmacotherapy (Software-Enhanced Drugs).
+Click Therapeutics, Inc. is a New York-headquartered digital medicine company founded in 2012 by David Benshoof Klein that develops, validates, and commercializes software as prescription medical treatments — the category it named Digital Therapeutics. Its AI-enabled platform targets diseases with an underlying neurological or behavioral component through cognitive and neurobehavioral mechanisms, delivered as smartphone software used independently or alongside biomedical therapy (Software-Enhanced Drugs). Authorized and commercial programs include CT-152 (Rejoyn, major depressive disorder, developed with Otsuka), CT-132 (episodic migraine) and AspyreRx (type 2 diabetes), with a pipeline spanning schizophrenia (CT-155 with Boehringer Ingelheim, CT-156), opioid use disorder, multiple sclerosis, atopic dermatitis, obesity, oncology, insomnia and acute coronary syndrome. Click publishes no public developer program, API, or SDK — its software is distributed as regulated prescription therapeutics, not as a platform.
 
-Authorized / commercial programs: CT-152 (Rejoyn, major depressive disorder, with Otsuka),
-CT-132 (episodic migraine), AspyreRx (type 2 diabetes). Pipeline: CT-155 (schizophrenia, with
-Boehringer Ingelheim), CT-156, CT-102 (opioid use disorder), CT-133, CT-171, CT-181, CT-191,
-CT-141, CT-111.
+**Areas:** Company · Health · Healthcare · Digital Therapeutics · Prescription Digital Therapeutics · Medical Devices · Mental Health · Life Sciences · Software as a Medical Device
 
-- https://www.clicktherapeutics.com/
+## Click Therapeutics on APIs.io
 
-## API surface
+Everything profiled for Click Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/click-therapeutics/](https://apis.io/providers/click-therapeutics/)** — or go straight to one of the APIs or properties below.
 
-**None.** Probed 2026-08-02: no api/developer/docs/portal subdomain resolves; no OpenAPI,
-Swagger, GraphQL, MCP, AsyncAPI or webhook surface; no `/.well-known/*` document; no
-first-party package on any registry. The public GitHub org holds six forks of third-party
-components plus one shell utility repo. Click's software ships as regulated prescription
-therapeutics, not as a developer platform.
+### Published properties
 
-`robots.txt` explicitly disallows GPTBot, Google-Extended and PerplexityBot.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Click Therapeutics Domain Security](https://apis.io/security/click-therapeutics/click-therapeutics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.clicktherapeutics.com/)
+- [Support](https://www.clicktherapeutics.com/contact)
+- [Blog](https://www.clicktherapeutics.com/insights)
+- [Terms of service](https://www.clicktherapeutics.com/terms-of-use)
+- [Privacy policy](https://www.clicktherapeutics.com/privacy-policy)
+- [GitHub](https://github.com/clicktherapeutics)
+
+## API Evangelist rating
+
+**Kin Score 11.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/click-therapeutics/](https://apis.io/providers/click-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Click Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/click-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
